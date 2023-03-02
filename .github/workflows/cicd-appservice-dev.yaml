@@ -78,7 +78,7 @@ jobs:
   repo-dispatch:
     name: Repository Dispatch
     runs-on: ubuntu-latest
-    needs: [unitest,analyze]
+    needs: [unittest,analyze]
     environment:
       name: dev
       url: https://github.com/piyas603/user8-tutorial-backend/actions/workflows/dev-tutorial-backend-deploy.yml
