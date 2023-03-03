@@ -81,7 +81,7 @@ jobs:
     needs: [unittest,analyze]
     environment:
       name: dev
-      url: https://github.com/piyas603/user8-tutorial-backend/actions/workflows/dev-tutorial-backend-deploy.yml
+      url: https://github.com/piyas603/user8-tutorial-backend/actions/workflows/dev-tutorial-be-deploy.yml
 
     steps:
     - name: Repository Dispatch
